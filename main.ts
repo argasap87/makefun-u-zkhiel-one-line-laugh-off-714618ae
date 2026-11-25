@@ -1,13 +1,14 @@
 // One-Line Laugh-Off — u-zkhiel-one-line-laugh-off-714618ae
 // Writes one funny line to /output/entry.txt.
-// The joke: the GPS offers a routing choice no sat-nav should know
-// about — traffic, or the street your ex lives on.
-// Reviser: kept the em-dash pause before "or my ex's house" — the beat
-// is the joke; 66 of 200 chars, nothing left to trim.
+// The joke: the smartwatch treats a racing heart as a financial event
+// and cancels the retirement plan before the body cancels anything.
+// Quality rebuild (25 Nov 2026): two critics scored the GPS-ex line 3/10
+// (Gemini) and 5/10 (Groq) — below the 7/10 bar. This replacement won a
+// 4-candidate judged pool: Gemini 9/10, Groq 7/10. 92 of 200 chars.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE =
-  "My GPS just asked if I wanted to avoid traffic — or my ex's house.";
+  "My smartwatch detected an elevated heart rate and preemptively unsubscribed me from my 401k.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 
